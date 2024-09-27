@@ -179,6 +179,7 @@ table td:hover{
 }
 .expert_cards img{
     height: 250px;
+    border-radius: 20px;
 }
 .expert_cards h3{
     margin-top: 20px;
@@ -229,9 +230,6 @@ footer{
     display: flex;
     justify-content: space-around;
     color: white;
-}
-footer > div:first-child{
-
 }
 footer > div:first-child img{
     background-color: white;
