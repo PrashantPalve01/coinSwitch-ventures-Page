@@ -1,0 +1,170 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    padding: 1% 5%;
+    display: flex;
+}
+nav ol{
+    margin-left: 400px;
+}
+nav ol li{
+    display: inline;
+    margin-left: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+nav ol li a{
+    text-decoration: none;
+}
+nav ol li button{
+    background-color:rgb(177,229,14);
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+table{
+    width: 100%;
+}
+
+table td{
+    border:1px solid gray;
+    padding: 30px 20px ;
+}
+table td:hover{
+    background-color: black;
+}
+
+.upper_design{
+    position: absolute;
+    margin-top: -618px;
+    padding: 8% 38% 8% 10% ;
+    background: rgba(237,242,254, 0.9);
+    height: 375px;
+    
+}
+#innvoation{
+    font-size: 70px;
+    font-weight: bolder;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#fuel{
+    font-size: 70px;
+    font-weight: bolder;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(107,145,252);
+}
+.upper_design > h2{
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 50px;
+    color: rgb(71, 71, 71);
+}
+
+.upper_design button{
+    background-color: black;
+    padding: 20px;
+    border-radius: 15px;
+    width: 200px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    margin-top: 50px;
+}
+
+/* about  */
+
+.about{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    padding: 10px 150px;
+    align-items: center;
+    gap: 100px;
+}
+.about > div:first-child+div h2{
+    font-family: Nexa,sans-serif;
+    color: rgb(73, 75, 87);
+}
+.about > div:first-child+div p{
+    font-size: 18px;
+    font-family: Nexa,sans-serif;
+    color: rgb(91, 99, 110);
+    margin-top: 50px;
+    line-height: 1.5;
+}
+
+
+/* why important  */
+
+.why_important{
+    margin-top: 100px;
+    padding: 10px 150px;
+}
+
+.why_important_boxes{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+.main_heading{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(73, 75, 87);
+    margin-bottom: 40px;
+}
+.why_important_boxes > div img{
+    height: 120px;
+    margin-bottom: 20px;
+}
+.why_important_boxes > div {
+    width: 20%;
+
+}
+.why_important_boxes > div p{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(73, 75, 87);
+}
+
+/* our selected  */
+
+.our_selected{
+    padding: 50px 150px;
+    margin-top: 150px;
+    background-color: rgb(245, 247, 255);
+}
+
+.our_cards{
+    display: grid;
+    grid-template-columns: repeat(4,23.5%);
+    gap: 30px;
+}
+.our_cards > div{
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px;
+
+}
+.our_cards > div > img{
+    height: 60px;
+}
+.our_cards > div > h2{
+    margin-top: 70px;
+}
+.our_cards > div > p{
+    color: rgb(164, 165, 171);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+/* Our Team of Experts */
+.Our_team_experts{
+    padding: 10px 150px;
+}
