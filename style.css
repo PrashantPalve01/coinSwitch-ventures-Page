@@ -167,4 +167,122 @@ table td:hover{
 /* Our Team of Experts */
 .Our_team_experts{
     padding: 10px 150px;
+    margin-top: 150px;
+}
+.experts_box{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+.experts_box > div{
+    width: 30%;
+}
+.expert_cards img{
+    height: 250px;
+}
+.expert_cards h3{
+    margin-top: 20px;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.expert_cards p{
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* media  */
+.media_section{
+    padding: 10px 150px;
+    margin-top: 150px;
+}
+.media_boxes{
+    display:flex;
+    justify-content: space-between;
+}
+.media_boxes > div{
+    width: 31%;
+}
+
+.media_boxes .card-body img{
+    height: 250px;
+    width: 100%;
+    border-radius: 20px;
+}
+.media_boxes .card-body img +p{
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.media_boxes .card-body img +p +p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+}
+
+/* footer  */
+footer{
+    background-color: rgb(28, 31, 46);
+    margin-top: 150px;
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+footer > div:first-child{
+
+}
+footer > div:first-child img{
+    background-color: white;
+    padding: 10px 30px;
+    border-radius: 10px;
+
+}
+footer > div:first-child p{
+    margin:40px 0px;
+
+}
+footer > div:first-child ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+footer > div:first-child ul li{
+    display: inline;
+    background-color: rgb(50, 53, 66);
+    padding: 10px;
+    border-radius: 50%;
+    width: 22px;
+    text-align: center;
+    align-items: center;
+}
+footer > div:first-child ul li i{
+    font-size: 20px;
+}
+
+footer > div:nth-child(2) ul li{
+    list-style: none;
+} 
+
+footer > div:nth-child(2) ul img{
+    height: 50px;
+}
+
+footer > div:nth-child(2) ul li{
+
+    border: 1px solid gray;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+footer > div:last-child p{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 70%;
+
+}
+footer > div:last-child h5{
+    margin-top: 20px;
+    font-size: 17px;
+    color: gray;
 }
